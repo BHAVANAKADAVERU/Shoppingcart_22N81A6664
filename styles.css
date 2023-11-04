@@ -4,6 +4,9 @@ body {
     background-color:rgb(209, 189, 221);
 }
 .products, .cart {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
     float: left;
     width: 45%;
     margin: 0 2.5%;
