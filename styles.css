@@ -4,15 +4,15 @@ body {
     background-color:rgb(209, 189, 221);
 }
 .products, .cart {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
     float: left;
     width: 45%;
     margin: 0 2.5%;
 }
 
 .product, .cart-item {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
