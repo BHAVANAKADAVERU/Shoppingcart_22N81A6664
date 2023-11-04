@@ -10,6 +10,8 @@ body {
 }
 
 .product, .cart-item {
+    display:grid;
+    grid-direction:normal;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
