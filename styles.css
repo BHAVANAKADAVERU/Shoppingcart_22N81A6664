@@ -18,7 +18,7 @@ body {
 }
 .products, .cart {
     float: inline-end;
-    width: 45%;
+    width: 60%;
     margin: 0 2.5%;
 }
 
